@@ -16,8 +16,7 @@ Para cada aula, três tipos de material:
 
 | Material | Formato | Descrição |
 |---|---|---|
-| **Slides** | `.pptx` | Os slides usados na gravação da aula |
-| **Roteiro** | `.md` | Texto integral falado no vídeo, cronometrado por slide |
+| **Slides** | `.pdf` | Os slides usados na gravação da aula |
 | **Apostila** | `.pdf` | Material de leitura da aula — conceito + laboratório passo a passo, tudo em um só documento |
 
 ## Estrutura do repositório
@@ -26,7 +25,7 @@ Para cada aula, três tipos de material:
 .
 ├── aulas/
 │   ├── aula-1/
-│   │   ├── aula-1.pptx
+│   │   ├── aula-1.pdf
 │   │   └── aula-1-apostila.pdf
 │   ├── aula-2/
 │   │   └── ...
