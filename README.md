@@ -1,2 +1,74 @@
-# trilha-nestjs-ufc
-Material de apoio da Trilha NestJS na Prática — slides, roteiros e apostilas em PDF das aulas de NestJS da disciplina CK0207 (UFC).
+# Trilha NestJS na Prática
+
+Material de apoio da **Trilha NestJS na Prática** — uma sequência de aulas construindo, do zero, uma API REST completa com NestJS: arquitetura, validação de dados, banco de dados com Prisma, autenticação com JWT e recursos avançados como Swagger e Docker.
+
+Cada aula parte de onde a anterior parou: o mesmo projeto (`nest-api-curso`) vai crescendo aula a aula, sempre com uma explicação conceitual seguida de código ao vivo.
+
+Material produzido para a disciplina **CK0207 — Desenvolvimento de Software para Web**, da Universidade Federal do Ceará (UFC), sob orientação do **Prof. Dr. Fernando Antônio Mota Trinta**.
+
+Assista à trilha completa no YouTube: [https://www.youtube.com/playlist?list=PLVQILFQ444eo]
+
+---
+
+## O que tem neste repositório
+
+Para cada aula, três tipos de material:
+
+| Material | Formato | Descrição |
+|---|---|---|
+| **Slides** | `.pptx` | Os slides usados na gravação da aula |
+| **Roteiro** | `.md` | Texto integral falado no vídeo, cronometrado por slide |
+| **Apostila** | `.pdf` | Material de leitura da aula — conceito + laboratório passo a passo, tudo em um só documento |
+
+## Estrutura do repositório
+
+```
+.
+├── aulas/
+│   ├── aula-1/
+│   │   ├── aula-1.pptx
+│   │   └── aula-1-apostila.pdf
+│   ├── aula-2/
+│   │   └── ...
+│   ├── aula-3/
+│   ├── aula-4/
+│   └── aula-5/
+└── README.md
+```
+
+## Trilha de aulas
+
+| Aula | Tema | Conteúdo |
+|---|---|---|
+| 1 | Introdução ao Framework e Arquitetura | Motivação, limitações do Express, arquitetura do Nest, Controllers/Services/Modules, Injeção de Dependências, Nest CLI |
+| 2 | Laboratório: Primeira API REST | Criação de Controllers, Services e endpoints REST |
+| 3 | DTOs e Validação de Dados | DTOs, decorators, ValidationPipe, class-validator, class-transformer |
+| 4 | Laboratório: CRUD Completo | Update, Delete, tratamento de erros, boas práticas REST |
+| 5 | Integração com Banco de Dados | Conceitos de ORM, Prisma, modelagem de entidades, migrations, SQLite/PostgreSQL |
+| 6 | *(em produção)* | Laboratório: Persistência de Dados |
+| 7 | *(em produção)* | Autenticação com JWT |
+| 8 | *(em produção)* | Laboratório: Proteção de Rotas |
+| 9 | *(em produção)* | Recursos Avançados (Swagger, Interceptors, Docker) |
+
+## Tecnologias usadas no projeto do curso
+
+- [NestJS](https://nestjs.com/)
+- TypeScript
+- [Prisma ORM](https://www.prisma.io/) (SQLite em desenvolvimento)
+- class-validator / class-transformer
+
+## Como acompanhar
+
+1. Assista ao vídeo da aula (slides + explicação).
+2. Abra a apostila em PDF correspondente — ela tem o mesmo conteúdo, em formato de leitura, mais o passo a passo de código completo.
+3. Siga o laboratório da apostila no seu próprio projeto, criado a partir da Aula 2 (`nest-api-curso`).
+
+Cada aula assume que o projeto das aulas anteriores já existe — não é necessário recriar o projeto do zero a cada aula.
+
+## Autor
+
+Material organizado e produzido por **Samuel Sales Furtado**, a pedido do Prof. Dr. Fernando Antônio Mota Trinta, para a disciplina CK0207 (UFC).
+
+## Uso
+
+Este material foi produzido para fins educacionais, como apoio à disciplina CK0207 da UFC. Sinta-se à vontade para usar como referência de estudo.
