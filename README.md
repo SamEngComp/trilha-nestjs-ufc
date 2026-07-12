@@ -6,13 +6,13 @@ Cada aula parte de onde a anterior parou: o mesmo projeto (`nest-api-curso`) vai
 
 Material produzido para a disciplina **CK0207 — Desenvolvimento de Software para Web**, da Universidade Federal do Ceará (UFC), sob orientação do **Prof. Dr. Fernando Antônio Mota Trinta**.
 
-Assista à trilha completa no YouTube: [https://www.youtube.com/playlist?list=PLVQILFQ444eo]
+Assista à trilha completa no YouTube: [https://www.youtube.com/playlist?list=PLVQILFQ444eo](https://www.youtube.com/playlist?list=PLVQILFQ444eo)
 
 ---
 
 ## O que tem neste repositório
 
-Para cada aula, três tipos de material:
+Para cada aula, dois tipos de material:
 
 | Material | Formato | Descrição |
 |---|---|---|
@@ -31,7 +31,11 @@ Para cada aula, três tipos de material:
 │   │   └── ...
 │   ├── aula-3/
 │   ├── aula-4/
-│   └── aula-5/
+│   ├── aula-5/
+│   ├── aula-6/
+│   ├── aula-7/
+│   ├── aula-8/
+│   └── aula-9/
 └── README.md
 ```
 
@@ -44,10 +48,12 @@ Para cada aula, três tipos de material:
 | 3 | DTOs e Validação de Dados | DTOs, decorators, ValidationPipe, class-validator, class-transformer |
 | 4 | Laboratório: CRUD Completo | Update, Delete, tratamento de erros, boas práticas REST |
 | 5 | Integração com Banco de Dados | Conceitos de ORM, Prisma, modelagem de entidades, migrations, SQLite/PostgreSQL |
-| 6 | *(em produção)* | Laboratório: Persistência de Dados |
-| 7 | *(em produção)* | Autenticação com JWT |
+| 6 | Laboratório: Persistência de Dados | Conectando o Prisma ao NestJS (PrismaService), operações de persistência (create, update, delete), consultas ao banco (findMany, findUnique) |
+| 7 | Autenticação com JWT | Autenticação vs. Autorização, JWT, Passport, Guards, hash de senhas com bcrypt |
 | 8 | *(em produção)* | Laboratório: Proteção de Rotas |
 | 9 | *(em produção)* | Recursos Avançados (Swagger, Interceptors, Docker) |
+
+> **Nota sobre a numeração:** as Aulas 7, 8 e 9 correspondem às Aulas 9, 10 e 11 da ementa oficial da disciplina (Autenticação com JWT, Proteção de Rotas e Recursos Avançados). A numeração foi ajustada nesta trilha para manter a sequência de vídeos sem lacunas.
 
 ## Tecnologias usadas no projeto do curso
 
@@ -55,6 +61,7 @@ Para cada aula, três tipos de material:
 - TypeScript
 - [Prisma ORM](https://www.prisma.io/) (SQLite em desenvolvimento)
 - class-validator / class-transformer
+- Passport / JWT / bcrypt
 
 ## Como acompanhar
 
